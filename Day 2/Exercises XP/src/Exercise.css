@@ -1,0 +1,15 @@
+.para {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+p,h1,h2,img{
+    margin: 1rem 0rem;
+}
+
+img{
+    width: 30%;
+}

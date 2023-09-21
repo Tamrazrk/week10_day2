@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    width: 100% !important;
+  }
+  .content {
+    flex-direction: column !important;
+  }
+  .text {
+    width: 100% !important;
+  }
+  .forms {
+    width: 100% !important;
+  }
+  .card {
+    flex-direction: column !important;
+  }
+  .card .icon {
+    text-align: center;
+    font-size: 15rem;
+  }
+}
+
+.header {
+  background-color: #f4511e;
+  text-align: center;
+  color: white;
+  padding: 2.5rem 0rem;
+}
+
+.icon {
+  font-size: 8rem;
+  color: #f4511e;
+}
+
+.icon-building {
+  padding: 0rem 1rem;
+}
+
+.card {
+  width: 85%;
+  margin: auto;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  width: 85%;
+  margin: auto;
+  color: black;
+}
+
+.contact {
+  width: 80%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.forms {
+  width: 100%;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.contact input {
+  padding: 0.5rem 0rem;
+}
+
+.contact button {
+  padding: 0.5rem 0rem;
+  background-color: #f4511e;
+  border: none;
+}
+
+button {
+  color: white;
+}
+
+.forms h5 {
+  margin-bottom: 1.2rem;
+}
+
+.location,
+.mobile,
+.email {
+  display: flex;
+}
+
+.mini-icon {
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+textarea {
+  min-height: 200px;
+}
